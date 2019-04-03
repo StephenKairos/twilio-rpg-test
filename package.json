@@ -1,0 +1,24 @@
+{
+  "name": "twilio-rpg-test",
+  "version": "1.0.0",
+  "description": "A test repo for Twilio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node send_sms.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephenKairos/twilio-rpg-test.git"
+  },
+  "author": "Stephen Kairos Reyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephenKairos/twilio-rpg-test/issues"
+  },
+  "homepage": "https://github.com/StephenKairos/twilio-rpg-test#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "twilio": "^3.30.0"
+  }
+}
